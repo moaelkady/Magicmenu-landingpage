@@ -1,7 +1,7 @@
 .input {
-  background-color: transparent;
+  background-color: #ffffff30;
   border-width: 0;
-  border-bottom: 1px solid var(--yello);
+  border-bottom: 3px solid var(--yello);
   width: 100%;
   line-height: 1.5em;
   padding: 10px 5px;
@@ -11,7 +11,7 @@
   transition: 0.3s;
   &:focus-visible {
     outline: none;
-    border-color: #ef6eae;
+    border-color: #fff;
   }
   &:disabled {
     cursor: not-allowed;

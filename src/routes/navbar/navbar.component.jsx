@@ -21,7 +21,7 @@ const Navbar = () => {
             setIsActive(false);
           }}
         >
-          <img src={logo} alt="magic-menu-logo" />
+          <img src={logo} alt="magic-menu-logo" width="50px" height="50px" />
           <div>
             <span className="magic">Magic</span>
             <span className="menu">Menu</span>
