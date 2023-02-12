@@ -11,3 +11,33 @@
     }
   }
 }
+
+.route-view-container {
+  min-height: 80%;
+  display: flex;
+  .router-view {
+    display: flex;
+    justify-content: space-around;
+    .section-container {
+      flex: 1;
+    }
+    .button-container {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .route-view-container {
+    .router-view {
+      flex-direction: column;
+      .button-container {
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    }
+  }
+}

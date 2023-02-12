@@ -10,7 +10,7 @@ const Contact = () => {
       transition={{ duration: 0.2 }}
       className="route-view-container"
     >
-      <div className="router-view">
+      <div className="router-view" style={{display:"block"}}>
       <ContactForm />
       </div>
     </motion.div>

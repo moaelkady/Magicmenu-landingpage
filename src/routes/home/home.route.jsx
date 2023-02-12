@@ -1,18 +1,17 @@
 import { motion } from "framer-motion";
 import Heading from "../../components/heading/heading.component";
 import PrimaryButton from "../../components/primary-button/primary-button.component";
-import "./home.styles.scss";
 const Home = () => {
   return (
     <motion.div
-      className="route-view-container home-view-container"
+      className="route-view-container"
       initial={{ width: 0 }}
       animate={{ width: "100%" }}
       exit={{ x: window.innerWidth }}
       transition={{ duration: 0.2 }}
     >
-      <div className="router-view home-view">
-        <div className="section-container home-section heading-container">
+      <div className="router-view">
+        <div className="section-container heading-container">
           <Heading
             heading="MagicMenu"
             title="Alternative online menu"
@@ -28,7 +27,7 @@ const Home = () => {
             marker="."
           />
         </div>
-        <div className="section-container home-section button-container">
+        <div className="section-container button-container">
           <PrimaryButton btnName="Order Now" path="/contact" animated="animated" />
         </div>
       </div>

@@ -3,17 +3,27 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 650.37 358.08" style="enable-background:new 0 0 650.37 358.08;" xml:space="preserve">
 <style type="text/css">
+	#BACKGROUND {position:relative;}
 	.st0{fill:url(#SVGID_1_);}
 	.st1{clip-path:url(#SVGID_3_);}
-	.st2{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
-	.st3{fill:#ffffff10;}
-	.st4{enable-background:new    ;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;transition:5s; animation: scale 30s infinite linear;}
+	.st3{fill:#ffffff10; animation: scale1 30s infinite linear;}
+	.st4{enable-background:new; animation: rotation 30s infinite linear;}
 	.st5{fill:url(#SVGID_4_);}
 	.st6{fill:url(#SVGID_5_);}
 	.st7{fill:url(#SVGID_6_);}
 	.st8{fill:url(#SVGID_7_);}
 	.st9{fill:url(#SVGID_8_);}
 	.st10{fill:url(#SVGID_9_);}
+	.img1{animation: img1a 30s infinite linear;}
+	.img2{animation: img2a 80s infinite linear;}
+	.img3{}
+	.img4{}
+	@keyframes scale {0% {transform: scale(1);} 50% {transform: scale(1.5);} 100% {transform: scale(1);}}
+	@keyframes scale1 {0% {transform: scale(1);} 50% {transform: scale(0.8);} 100% {transform: scale(1);}}
+	@keyframes rotation {0% {transform: rotate(40deg);} 3% {transform: rotate(335deg);} 100% {transform: rotate(399deg);}}
+	@keyframes img1a {0% {transform: scaleY(1);} 50% {transform: scaleY(0.5);} 100% {transform: scaleY(1);}}
+	@keyframes img2a {0% {transform: scale(0.7);} 50% {transform: scale(0.001);} 100% {transform: scale(0.7);}}
 </style>
 <g id="BACKGROUND">
 </g>
@@ -38,7 +48,7 @@
 			<g class="st1">
 				<g>
 					
-						<image style="overflow:visible;" width="1188" height="1019" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABKgAAAQBCAYAAAAOzrIDAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA
+						<image class="img1" style="overflow:visible;" width="1188" height="1019" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABKgAAAQBCAYAAAAOzrIDAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAABRpdJREFUeNrsvWevLE2y7xWxz7lo
 eHu+C0KAMAKE5wgnvLfCe8+de+8MTnhhhZHw8AIn5nvAnE8y+Hvundm7kt1rr16rujpNRGZkVXX3
 7/doPd1dlZWZlV1VnfHfEZEiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcADKEAAAAAAAwJVf
@@ -1510,7 +1520,7 @@ GQIwIREAAAAAAAAAAAAAAAAAAAAn9P8LMABXPltpptYq6AAAAABJRU5ErkJggg==" transform="mat
 					</image>
 					<polygon class="st2" points="488.87,124.82 375.44,216.18 511.28,268.73 					"/>
 					
-						<image style="overflow:visible;" width="2137" height="1158" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAACF4AAASLCAYAAACmreukAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA
+						<image class="img2" style="overflow:visible;" width="2137" height="1158" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAACF4AAASLCAYAAACmreukAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAABsw1JREFUeNrs3Xmz5MyeH3RlB/9w
 DTMwL2z4nwiCYA+WYN8x13caYzCb2QzGrAZjFu+P2T3zli5vgNvJnH66uuvU0ZIpZaYypc9n4rmn
 SiWlUilVnZ7S9/xymgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK4rGAIAAAAAAODN
@@ -3468,7 +3478,7 @@ EmkwmogCAAAAAAC4xQUCAK0JNPoSUgAAAAAAACO4cACAg0QasQkpAAAAAACAHVxQAMBgAo0xhBQA
 AAAAAEAGLjQAIJHMUYeQAgAAAAAAAAAAAAAAAACAL/8CUtJkcPTjjrAAAAAASUVORK5CYII=" transform="matrix(0.24 0 0 0.24 197.2459 192.8239)">
 					</image>
 					
-						<image style="overflow:visible;" width="355" height="357" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWYAAAFrCAYAAADiuCPIAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA
+						<image class="img3" style="overflow:visible;" width="355" height="357" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWYAAAFrCAYAAADiuCPIAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAXUhJREFUeNrsve2vLNt23jVG7XOd
 e/F7/iC+8QkpVoJEJIQiRTJCJBKKHSchFr7nnHsRkRIgoEiRsCJCIDhYKG9GBMI7dpw/J7FjAhju
 6cFe+6zeq7pqjjGeMeaY1dW95jxaZ6/VXV1VXd31q6eeOV6I5phjjjnmmGOOOeaYYw598DwEc8zx
@@ -4013,7 +4023,7 @@ uEDtDN8+4FxYmgJmBtb3F393QniOOSaYn2j8ERDervoFwPwyFm+dK9X7V373q/ldmmOOOeaYY445
 						</g>
 					</g>
 					
-						<image style="overflow:visible;" width="255" height="311" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQIAAAE9CAYAAADgY2woAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA
+						<image class="img4" style="overflow:visible;" width="255" height="311" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQIAAAE9CAYAAADgY2woAAAACXBIWXMAAC4jAAAuIwF4pT92AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAATARJREFUeNrsfWuLdct21hizO6DB
 xPh3RLwgiAgiiCAiJpGoUQOJuV8wnrNzCGpMjqKiYlAwasQPIvGDn/wgaPw5nly8QXbXcPf7rrm6
 Zs1xeUZVrb5WbXp3v2vNNddac1Y99Yxn3IjWWGONNdZYY4011lhjjTXWeC3j13/XN2RdhTVeavC6
