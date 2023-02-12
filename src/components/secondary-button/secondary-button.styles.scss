@@ -1,0 +1,142 @@
+.secondary-button-container {
+    background: transparent;
+    border: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  .button {
+    margin: 20px;
+    float: left;
+    position: relative;
+    font-family: arial;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    &:hover {
+        color: #ecedee;
+    }
+    .label {
+      padding: 10px 30px;
+      font-family: arial;
+      font-size: 14px;
+      display: inline-block;
+      z-index: 10;
+      position: relative;
+      white-space: nowrap;
+      line-height: 24px;
+      transition: all 0.225s;
+      transition-delay: 0.45s;
+      letter-spacing: 2px;
+    }
+    .icon2 {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transition: all 0.225s;
+      transform: skew(-40deg, 0deg) scaleX(1);
+      background: var(--yello);
+      transition-delay: 0.45s;
+    }
+    .icon {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transition: all 0.225s;
+      transform: scale(0.9) skew(0deg, 0deg);
+      transition-delay: 0.15s;
+      &:before {
+        width: 60px;
+        opacity: 0;
+        content: "";
+        height: 1px;
+        position: absolute;
+        display: block;
+        background: #f0202f;
+        transition: all 0.375s;
+        transition-delay: 0.3s;
+        top: 0;
+        left: calc(50% - 30px);
+      }
+      &:after {
+        width: 60px;
+        opacity: 0;
+        content: "";
+        height: 1px;
+        position: absolute;
+        display: block;
+        background: #f0202f;
+        transition: all 0.375s;
+        transition-delay: 0.3s;
+        bottom: 0;
+        right: calc(50% - 30px);
+      }
+      span {
+        &:before {
+          height: 0;
+          transition-delay: 0s;
+          content: "";
+          background: var(--yello);
+          position: absolute;
+          display: block;
+          width: 2px;
+          transition: all 0.225s;
+          left: 0;
+          top: 0;
+        }
+        &:after {
+          height: 0;
+          transition-delay: 0s;
+          content: "";
+          background: var(--yello);
+          position: absolute;
+          display: block;
+          width: 2px;
+          transition: all 0.225s;
+          right: 0;
+          bottom: 0;
+        }
+      }
+    }
+    &:hover {
+      .icon {
+        transform: skew(-40deg, 0deg);
+        &:before {
+          transition-delay: 0s;
+          width: 30px;
+          opacity: 1;
+          left: 0;
+        }
+        &:after {
+          transition-delay: 0s;
+          width: 30px;
+          opacity: 1;
+          right: 0;
+        }
+        span {
+          &:before {
+            height: 30px;
+            transition-delay: 0.45s;
+          }
+          &:after {
+            height: 30px;
+            transition-delay: 0.45s;
+          }
+        }
+      }
+      .icon2 {
+        transform: skew(-40deg, 0deg) scaleX(0.2);
+        background: transparent;
+        transition-delay: 0s;
+        opacity: 0;
+      }
+    }
+  }
+}

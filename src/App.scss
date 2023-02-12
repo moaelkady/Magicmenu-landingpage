@@ -1,0 +1,13 @@
+.App {
+  height: calc(100vh - 80px);
+  margin-top: 80px;
+  .route-view-container {
+    color: #fff;
+    font-family: var(--primary-font);
+    .router-view {
+      width: 80%;
+      padding: 20px 0;
+      margin: auto;
+    }
+  }
+}

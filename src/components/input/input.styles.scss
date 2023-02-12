@@ -1,0 +1,30 @@
+.input {
+  background-color: transparent;
+  border-width: 0;
+  border-bottom: 1px solid var(--yello);
+  width: 100%;
+  line-height: 1.5em;
+  padding: 10px 5px;
+  font-family: var(--primary-font);
+  color: #ffffff;
+  margin: 20px 5px;
+  transition: 0.3s;
+  &:focus-visible {
+    outline: none;
+    border-color: #ef6eae;
+  }
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 0.5;
+}
+:-ms-input-placeholder {
+  color: #fff;
+}
+::-ms-input-placeholder {
+  color: #fff;
+}
