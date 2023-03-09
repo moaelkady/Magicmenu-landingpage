@@ -26,7 +26,6 @@ const Product = () => {
                 Additionally, you can choose to add unique features.
               </p>
             }
-            theme="middle-view"
           />
         </div>
         <div className="section-container button-container">

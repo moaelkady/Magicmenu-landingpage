@@ -1,12 +1,13 @@
 .input {
-  background-color: #ffffff30;
+  background-color: #ffffffd8;
   border-width: 0;
+  border-radius: 8px;
   border-bottom: 3px solid var(--yello);
   width: 100%;
   line-height: 1.5em;
   padding: 10px 5px;
   font-family: var(--primary-font);
-  color: #ffffff;
+  color: #0e0d0d;
   margin: 20px 5px;
   transition: 0.3s;
   &:focus-visible {
@@ -19,7 +20,7 @@
 }
 
 ::placeholder {
-  color: #fff;
+  color: #0e0d0d;
   opacity: 0.5;
 }
 :-ms-input-placeholder {

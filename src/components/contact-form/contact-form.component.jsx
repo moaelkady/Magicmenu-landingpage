@@ -39,7 +39,6 @@ const ContactForm = () => {
     <div className="form-container">
       <Heading
         heading="Get in touch"
-        theme="middle-view"
         title="Send us a message"
         marker="."
       />

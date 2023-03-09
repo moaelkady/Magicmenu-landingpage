@@ -1,19 +1,23 @@
 .message-box {
   outline: none;
   border-width: 0;
-  background-color: #ffffff30;
+  background-color: #ffffffd8;
+  border-radius: 8px;
   border-bottom: 1px solid var(--yello);
   width: 100%;
   line-height: 1.5em;
   padding: 10px 5px;
   font-family: var(--primary-font);
-  color: #ffffff;
+  color: #0e0d0d;
   margin: 5px;
   transition: 0.3s;
   height: 150px;
   &:focus-visible {
     outline: none;
     border-color: var(--yello);
+  }
+  &::placeholder {
+    color: #000000;
   }
   &:disabled {
     cursor: not-allowed;

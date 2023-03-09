@@ -29,7 +29,6 @@ const Pricing = () => {
                 control your menu.
               </p>
             }
-            theme="middle-view"
           />
         </div>
         <div className="section-container button-container">
