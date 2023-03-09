@@ -9,6 +9,9 @@ MenuMatic is a website that allows restaurant owners to easily create and manage
 * Real-time updates to menus and orders through Firebase integration
 * Use of SVG and CSS animations to enhance user experience
 
+## Try it
+You can try it live [HERE](https://magicmenu-ed3ef.web.app/)
+
 ## Installation
 1. Clone the repository onto your local machine.
 2. Install dependencies by running `npm install`.
