@@ -17,7 +17,7 @@ MenuMatic is a website that allows restaurant owners to easily create and manage
 ## Usage
 Once the development server is running, visit http://localhost:3000 to view the website. Restaurant owners can create an account and start building their online menus right away.
 
-##Build
+## Build
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
